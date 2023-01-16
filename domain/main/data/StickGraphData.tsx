@@ -40,6 +40,7 @@ export const chartOptions: ApexCharts.ApexOptions = {
       columnWidth: "40%",
       borderRadius: 5,
       borderRadiusApplication: "end",
+      distributed: true,
     },
   },
   grid: {
@@ -52,9 +53,27 @@ export const chartOptions: ApexCharts.ApexOptions = {
     },
     // background: "#fff",
   },
-  colors: ["#C66363"],
+  colors: [
+    "#49C39D",
+    "#49C39D",
+    "#7DABF8",
+    "#7DABF8",
+    "#7DABF8",
+    "#7DABF8",
+    "#7DABF8",
+    "#7DABF8",
+    "#7DABF8",
+    "#FFBF57",
+    "#FFBF57",
+    "#FFBF57",
+    "#FFBF57",
+    "#FFBF57",
+  ],
   dataLabels: {
     enabled: false,
+  },
+  legend: {
+    show: false,
   },
   xaxis: {
     axisBorder: {
@@ -79,7 +98,7 @@ export const chartOptions: ApexCharts.ApexOptions = {
   yaxis: {
     tickAmount: 8,
     labels: {
-      show: true,      
+      show: true,
     },
   },
 };

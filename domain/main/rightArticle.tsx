@@ -7,39 +7,45 @@ export const RightArticle = () => {
         <Typography css={st.articleTitle}>Environment</Typography>
         <ul>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[OW]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.red}></div>
+            <Typography css={st.gd}>[IC]</Typography>
             <Typography css={st.article}>
-              3백억 대 전세사기 또 적발…매매·전세 ‘동시진행’…
+              3백억 대 전세사기 또 적발…매매·전세 ‘동시진…
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[CO]</Typography>
             <Typography css={st.article}>
-              삼성전자, 최신 스냅드래곤 탑재한 '갤럭시 북2 프로 …
+              삼성전자, 최신 스냅드래곤 탑재한 '갤럭시 북…
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.grey}></div>
+            <Typography css={st.gd}>[FR]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[ET]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[ET]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
         </ul>
@@ -48,39 +54,45 @@ export const RightArticle = () => {
         <Typography css={st.articleTitle}>Social</Typography>
         <ul>
           <li css={st.articleContainer}>
+            <div css={st.pink}></div>
             <Typography css={st.gd}>[OW]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
           <li css={st.articleContainer}>
+            <div css={st.pink}></div>
             <Typography css={st.gd}>[IC]</Typography>
             <Typography css={st.article}>
-              3백억 대 전세사기 또 적발…매매·전세 ‘동시진행’…
+              3백억 대 전세사기 또 적발…매매·전세 ‘동시진…
             </Typography>
           </li>
           <li css={st.articleContainer}>
+            <div css={st.pink}></div>
             <Typography css={st.gd}>[CO]</Typography>
             <Typography css={st.article}>
-              삼성전자, 최신 스냅드래곤 탑재한 '갤럭시 북2 프로 …
+              삼성전자, 최신 스냅드래곤 탑재한 '갤럭시 북…
             </Typography>
           </li>
           <li css={st.articleContainer}>
+            <div css={st.pink}></div>
             <Typography css={st.gd}>[FR]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
           <li css={st.articleContainer}>
+            <div css={st.pink}></div>
             <Typography css={st.gd}>[ET]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
           <li css={st.articleContainer}>
+            <div css={st.pink}></div>
             <Typography css={st.gd}>[ET]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
         </ul>
@@ -89,39 +101,45 @@ export const RightArticle = () => {
         <Typography css={st.articleTitle}>Governance</Typography>
         <ul>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[OW]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[IC]</Typography>
             <Typography css={st.article}>
-              3백억 대 전세사기 또 적발…매매·전세 ‘동시진행’…
+              3백억 대 전세사기 또 적발…매매·전세 ‘동시진…
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[CO]</Typography>
             <Typography css={st.article}>
-              삼성전자, 최신 스냅드래곤 탑재한 '갤럭시 북2 프로 …
+              삼성전자, 최신 스냅드래곤 탑재한 '갤럭시 북…
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[FR]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[ET]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
           <li css={st.articleContainer}>
-            <Typography css={st.gd}>[GD]</Typography>
+            <div css={st.pink}></div>
+            <Typography css={st.gd}>[ET]</Typography>
             <Typography css={st.article}>
-              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입한다
+              직장 경력 쌓이면 대졸자 인정…'경험인정제' 도입
             </Typography>
           </li>
         </ul>
@@ -131,6 +149,27 @@ export const RightArticle = () => {
 };
 
 const st = {
+  grey: css`
+    width: 12px;
+    height: 12px;
+    border-radius: 70%;
+    background-color: #f3f3f3;
+    margin-right: 5px;
+  `,
+  red: css`
+    width: 12px;
+    height: 12px;
+    border-radius: 70%;
+    background-color: #c66363;
+    margin-right: 5px;
+  `,
+  pink: css`
+    width: 12px;
+    height: 12px;
+    border-radius: 70%;
+    background-color: #ecbfbf;
+    margin-right: 5px;
+  `,
   bigRoot: css`
     transform: translateY(-3%);
   `,
@@ -142,6 +181,7 @@ const st = {
   articleContainer: css`
     display: flex;
     height: 28px;
+    align-items: center;
   `,
   root: css`
     background-color: #fff;

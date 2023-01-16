@@ -7,11 +7,20 @@ const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 export const StickGraph = () => {
   return (
     <div css={st.root}>
-      <div css={st.Line1}></div>
-      <div css={st.Line2}></div>
-      <Typography css={st.title}>
-        <span css={st.redColor}>ESG Risk</span> by topic
-      </Typography>
+      <div css={st.titleContainer}>
+        <Typography css={st.title}>
+          <span css={st.redColor}>ESG Risk</span> by topic
+        </Typography>
+        <div css={st.legends}>
+          <div css={st.green}></div>
+          <Typography css={st.legend}>Environment</Typography>
+          <div css={st.blue}></div>
+          <Typography css={st.legend}>Social</Typography>
+          <div css={st.yellow}></div>
+          <Typography css={st.legend}>Governance</Typography>
+        </div>
+      </div>
+
       <Chart
         series={Series}
         options={chartOptions}
@@ -24,23 +33,35 @@ export const StickGraph = () => {
 };
 
 const st = {
-  Line2: css`
-    width: 2px;
-    height: 216px;
-    background-color: #A8A8A8;
-    position: absolute;
-    top: 69px;
-    right: 223px;
-    z-index: 33;
+  yellow: css`
+    background-color: #ffbf57;
+    width: 20px;
+    height: 7px;
+    margin-left: 10px;
   `,
-  Line1: css`
-    width: 2px;
-    height: 216px;
-    background-color: #A8A8A8;
-    position: absolute;
-    top: 69px;
-    left: 140px;
-    z-index: 33;
+  blue: css`
+    background-color: #7dabf8;
+    width: 20px;
+    height: 7px;
+    margin-left: 10px;
+  `,
+  legend: css`
+    font-size: 12px;
+    margin-left: 5px;
+  `,
+  green: css`
+    background-color: #49c39d;
+    width: 20px;
+    height: 7px;
+    margin-left: 10px;
+  `,
+  legends: css`
+    display: flex;
+    align-items: center;
+  `,
+  titleContainer: css`
+    display: flex;
+    justify-content: space-between;
   `,
   root: css`
     width: 100%;
