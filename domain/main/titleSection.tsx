@@ -1,29 +1,62 @@
 import { css } from "@emotion/react";
 import Typography from "@mui/material/Typography";
 
-export const TitleSection = () => {
+
+
+type TitleSectionProps = {
+  socialGrade: string;
+  total: string;
+  enviro: string;
+  gov: string;
+  firmname: string;
+};
+
+export const TitleSection = ({
+  socialGrade,
+  total,
+  enviro,
+  gov,
+  firmname,
+}: TitleSectionProps) => {
+
+  const alphabets = [
+    {
+      label: "Total",
+      data: total,
+      color: "rgba(177, 31, 31, 0.3)",
+    },
+    {
+      label: "Environment",
+      data: enviro,
+      color: "rgba(177, 31, 31, 0.15)",
+    },
+    {
+      label: "Social ",
+      data: socialGrade,
+      color: "rgba(177, 31, 31, 0.15)",
+    },
+    {
+      label: "Governance",
+      data: gov,
+      color: "rgba(177, 31, 31, 0.15)",
+    },
+  ];
+
+
+
+
   return (
     <div>
       <div css={st.titleContainer}>
-        <Typography css={st.ttile}>현대두산인프라코어</Typography>
+        <Typography css={st.ttile}>{firmname}</Typography>
 
         <ul css={st.alphabetContainer}>
-          <li css={st.alphabetWrap}>
-            <div css={st.alphabetTotal}>B</div>
-            <Typography css={st.btmText}>Total</Typography>
-          </li>
-          <li css={st.alphabetWrap}>
-            <div css={st.alphabet}>A</div>
-            <Typography css={st.btmText}>Environment</Typography>
-          </li>
-          <li css={st.alphabetWrap}>
-            <div css={st.alphabet}>B</div>
-            <Typography css={st.btmText}>Social</Typography>
-          </li>
-          <li css={st.alphabetWrap}>
-            <div css={st.alphabet}>C</div>
-            <Typography css={st.btmText}>Governance</Typography>
-          </li>
+          {alphabets.map((it) => (
+            <li css={st.alphabetWrap}>
+              <div css={st.alphabetTotal(it.color)}>{it.data}</div>
+              <Typography css={st.btmText}>{it.label}</Typography>
+            </li>
+          ))}
         </ul>
       </div>
       <div css={st.redLine}></div>
@@ -47,11 +80,11 @@ const st = {
   btmText: css`
     font-size: 8px;
   `,
-  alphabetTotal: css`
+  alphabetTotal: (color: string) => css`
     width: 50px;
     height: 50px;
-    background: rgba(177, 31, 31, 0.3);
     border-radius: 70%;
+    background: ${color};
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +95,7 @@ const st = {
   alphabet: css`
     width: 50px;
     height: 50px;
-    background: rgba(177, 31, 31, 0.3);
+
     border-radius: 70%;
     display: flex;
     align-items: center;
